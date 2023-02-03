@@ -1,6 +1,6 @@
 
 
-import SaludTotal from './Componentes/SaludTotal';
+import Navbar from './Componentes/Navbar';
 
 
 
@@ -10,7 +10,7 @@ function  App () {
     <header>
       <section>
         <hr/>
-        <SaludTotal/>
+        <Navbar/>
        
       </section>
     </header>
