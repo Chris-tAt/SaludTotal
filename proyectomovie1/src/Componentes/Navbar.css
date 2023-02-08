@@ -22,18 +22,18 @@ nav {
     padding: 0 20px;
     position: relative;
 }
-#navbar li a {
+#navbar li Link {
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 600;
     color: rgb(74, 88, 9);
     transition: 0.4s ease-in-out;
 }
-#navbar li a:hover {
+#navbar li Link:hover {
 color: rgb(231, 107, 18);
 }
-#navbar li a:hover::after,
-#navbar li a.active::after{
+#navbar li Link:hover::after,
+#navbar li Link.active::after{
     content: "";
     width: 30%;
     height: 2px;
