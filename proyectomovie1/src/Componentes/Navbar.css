@@ -3,6 +3,78 @@ img {
     height: 90px;
     padding: 0.2px;
 }  
+.rotacionimg {
+    width: 90px;
+    height: 90px;
+    padding: 0.2px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(243, 83, 9, 0.89);
+    position: relative;
+}
+
+.rotacionimg::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    border-radius: 50%;
+    box-shadow:
+    0 0 20px rgba(255, 165, 0, 0.5),
+    inset 0 0 20px rgba(255, 165, 0, 0.5),
+    0 0 10px rgba(0, 0, 0, 0.3),
+    inset 0 0 10px rgba(243, 236, 236, 0.50),
+    -10px -10px 20px rgba(255, 165, 0, 0.5),
+    10px 10px 20px rgba(255, 165, 0, 0.5);
+  animation: rotate 1s linear infinite,
+    blink 1s linear infinite;
+  animation: spin 2s linear infinite;
+}
+.rotacionimg::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -12px;
+  left: -12px;
+  right: -12px;
+  bottom: -12px;
+  border-radius: 50%;
+  background-color: rgba(207, 15, 15, 0.50);
+  z-index: -1;
+  transition: opacity 0.3s ease;
+}
+.rotacionimg:hover::after {
+  opacity: 0.3;
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@keyframes blink {
+  0% {
+    transform: scale(0.5);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.5);
+  }
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 nav {
     display: flex;
     align-items: center;
@@ -22,18 +94,18 @@ nav {
     padding: 0 20px;
     position: relative;
 }
-#navbar li Link {
+#navbar li .nav-link {
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 600;
     color: rgb(74, 88, 9);
     transition: 0.4s ease-in-out;
 }
-#navbar li Link:hover {
+#navbar li .nav-link:hover {
 color: rgb(231, 107, 18);
 }
-#navbar li Link:hover::after,
-#navbar li Link.active::after{
+#navbar li .nav-link:hover::after,
+#navbar li .nav-link.active::after{
     content: "";
     width: 30%;
     height: 2px;

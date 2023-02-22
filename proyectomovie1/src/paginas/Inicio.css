@@ -1,0 +1,76 @@
+
+.inicio-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(115, 230, 100);
+    text-align: center;
+    height: 100vh;
+    background-color: rgba(205, 236, 205, 0.9);
+    transition: background-color 0.3s ease-in-out;
+    animation: pulsate 1.3s ease-in-out infinite;
+
+  }
+  @keyframes pulsate {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  .inicio-container:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  .inicio-container:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(255,255,255,0.2), rgba(255,255,255,0));
+    z-index: -1;
+    }
+  
+  .bienvenida {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px #ffa07a, 2px 2px #ffa07a, 3px 3px #ffa07a;
+    color: white;
+    transition: color 0.3s ease-in-out;
+  }
+  .bienvenida:hover {
+    color: #ffa07a;
+    }
+  .introduccion {
+    font-size: 18px;
+    width: 70%;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px #fff, 2px 2px #fff, 3px 3px #fff;
+
+  }
+  
+  .frase-atraer {
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 1px 1px #ffa07a, 2px 2px #ffa07a, 3px 3px #ffa07a;
+  transition: color 0.3s ease-in-out;
+  }
+  .frase-atraer:hover {
+    color: #ffa07a;
+  }
+  .logo {
+    opacity:0.3;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }

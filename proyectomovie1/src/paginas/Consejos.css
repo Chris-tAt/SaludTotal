@@ -1,0 +1,38 @@
+button {
+    background-color: orange;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    transition: all 0.3s;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.2rem;
+  }
+  
+  button:hover {
+    transform: translateY(-5px);
+  }
+  .botones-consejos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .consejos-heading {
+    color: red; /* color inicial */
+    animation: change-color 5s infinite; /* cambia de color cada 5 segundos */
+  }
+  
+  @keyframes change-color {
+    0% { color: red; }
+    25% { color: blue; }
+    50% { color: green; }
+    75% { color: orange; }
+    100% { color: red; }
+  }
+  .consejos-heading {
+    color: red;
+    animation: change-color 5s infinite;
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 2rem;
+  }
