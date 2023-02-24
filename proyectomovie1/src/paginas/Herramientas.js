@@ -1,12 +1,13 @@
-import React from 'react';
+import React from 'react'
+import IMcorp from '../Componentes/IMcorp';
+const Herramientas = () => {
 
-function Herramientas() {
-  return(
-    <>
+  return (
+    <div>
+      <IMcorp />
+
+    </div>
     
-  <h1>Welcome to the herramientas Page</h1>
-    </>
-  ) 
+  )
 }
-
 export default Herramientas;
