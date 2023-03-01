@@ -6,6 +6,7 @@ import Consejos from "./paginas/Consejos";
 import Herramientas from "./paginas/Herramientas";
 import Conocenos from "./paginas/Conocenos";
 import Contacto from "./paginas/Contacto";
+import Recetario from "./PaginaReceta/Recetario";
 
 function App() {
   return (
@@ -16,11 +17,12 @@ function App() {
         <BrowserRouter>
           <Navbar />
           <Routes>
-            <Route path="/paginas/" element={<Inicio />} />
+            <Route path="/paginas" element={<Inicio />} />
             <Route path="/paginas/Consejos" element={<Consejos />} />
             <Route path="/paginas/Herramientas" element={<Herramientas />} />
             <Route path="/paginas/Conocenos" element={<Conocenos />} />
             <Route path="/paginas/Contacto" element={<Contacto />} />
+            <Route exact path="/PaginaReceta/Recetario" element={<Recetario />} />
           </Routes>
         </BrowserRouter>
       </section>
