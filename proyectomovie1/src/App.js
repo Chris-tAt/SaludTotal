@@ -7,13 +7,12 @@ import Herramientas from "./paginas/Herramientas";
 import Conocenos from "./paginas/Conocenos";
 import Contacto from "./paginas/Contacto";
 import Recetario from "./PaginaReceta/Recetario";
+import PreyCura from "./Componentes/PreyCura";
 
 function App() {
   return (
     <header>
       <section>
-        <hr />
-
         <BrowserRouter>
           <Navbar />
           <Routes>
@@ -22,11 +21,11 @@ function App() {
             <Route path="/paginas/Herramientas" element={<Herramientas />} />
             <Route path="/paginas/Conocenos" element={<Conocenos />} />
             <Route path="/paginas/Contacto" element={<Contacto />} />
-            <Route exact path="/PaginaReceta/Recetario" element={<Recetario />} />
+            <Route exact path="/PaginaReceta/Recetario" element={<Recetario/>} />
+            <Route exact path="/Componentes/PreyCura" element={<PreyCura/>} />
           </Routes>
         </BrowserRouter>
       </section>
-      
     </header>
   );
 }
