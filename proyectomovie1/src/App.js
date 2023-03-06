@@ -26,7 +26,9 @@ function App() {
           </Routes>
         </BrowserRouter>
       </section>
+
     </header>
+   
   );
 }
 export default App;

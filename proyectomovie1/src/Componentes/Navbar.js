@@ -13,7 +13,7 @@ class Navbar extends Component {
       <div>
         <nav>
           <img className="rotacionimg" src={Logo} alt="Logo de la aplicación" />
-          <a href="index.html">
+          <a href="index.html" className="my-class">
             <svg
               id="logo-13"
               width="49"

@@ -98,8 +98,12 @@ nav {
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 600;
-    color: rgb(74, 88, 9);
+    color: rgb(61, 73, 4);
     transition: 0.4s ease-in-out;
+    color: inherit;
+    padding: 5px;
+    margin: 5px;
+   
 }
 #navbar li .nav-link:hover {
 color: rgb(231, 107, 18);
@@ -111,7 +115,7 @@ color: rgb(231, 107, 18);
     height: 2px;
     background-color: rgb(231, 107, 18);
     position: absolute;
-    bottom: -4px;
+    bottom: 1px;
     left: 20px;
 }
 #mobile {
@@ -151,4 +155,12 @@ color: rgb(231, 107, 18);
         font-size: 24px;
         cursor: pointer
     }
+}
+.my-class {
+  background-color: #ffba5a;
+    color: inherit;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    text-decoration: none;
 }

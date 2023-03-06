@@ -11,14 +11,26 @@ button {
   button:hover {
     transform: translateY(-5px);
   }
+  .prueba {
+    background-color: orange;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    transition: all 0.3s;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.2rem;
+  }
+  .prueba:hover {
+    transform: translateY(-5px);
+  }
   .botones-consejos {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
   .consejos-heading {
-    color: red; /* color inicial */
-    animation: change-color 5s infinite; /* cambia de color cada 5 segundos */
+    color: red; 
+    animation: change-color 5s infinite; 
   }
   
   @keyframes change-color {

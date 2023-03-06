@@ -6,10 +6,11 @@
     width: 100%;
     min-height: 100vh;
     background-color: rgba(11, 155, 23, 0.75);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
     display: none;
     justify-content: center;
     align-items: center;
-      
+    overflow: auto;
 }
 
 .modal.is-open {
@@ -31,4 +32,34 @@
   top: 1rem;
   right: 1rem;
 }
+.modal h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+}
+.modal p {
+  text-indent: 20px;
+  margin-bottom: 20px;
+  font-size: 24px; 
+  font-weight: bold; 
+  color: #333; 
+}
+.modal img {
+  width: 35%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  animation-name: zoom-in;
+  animation-duration: 0.5s;
+}
 
+@keyframes zoom-in {
+  from {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
