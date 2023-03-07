@@ -8,6 +8,8 @@ import Conocenos from "./paginas/Conocenos";
 import Contacto from "./paginas/Contacto";
 import Recetario from "./PaginaReceta/Recetario";
 import PreyCura from "./Componentes/PreyCura";
+import Footer from "./Footer";
+
 
 function App() {
   return (
@@ -26,9 +28,10 @@ function App() {
           </Routes>
         </BrowserRouter>
       </section>
-
+      
+      <Footer />
     </header>
-   
   );
 }
+
 export default App;

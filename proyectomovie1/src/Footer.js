@@ -1,38 +1,51 @@
 import React from "react";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./Footer.css"; 
 
 function Footer() {
   return (
-    <footer>
+    <footer className="bg-orange mt-5 py-3">
       <div className="container">
         <div className="row">
           <div className="col-md-4">
             <h4>Nuestros Servicios</h4>
             <ul>
-              <li>Consulta Médica</li>
-              <li>Exámenes Médicos</li>
-              <li>Cirugías</li>
+              <li>Consejeria Familiar</li>
+              <li>Consejeria Espiritual</li>
+              <li>Remedios Naturale</li>
               <li>Terapias</li>
+              <li>Eventos y seminarios</li>
+              <li>y Mas</li>
             </ul>
           </div>
           <div className="col-md-4">
             <h4>Contacto</h4>
-            <p>Dirección: 123 Calle Principal</p>
-            <p>Teléfono: 555-1234</p>
-            <p>Email: info@salud.com</p>
+            <p>Dirección: por definir</p>
+            <p>Teléfono: por definir</p>
+            <p>Email: pordefinir@gmail.com</p>
           </div>
           <div className="col-md-4">
             <h4>Redes Sociales</h4>
             <ul>
-              <li><a href="#">Facebook</a></li>
-              <li><a href="#">Twitter</a></li>
-              <li><a href="#">Instagram</a></li>
-              <li><a href="#">LinkedIn</a></li>
+              <li>
+                <a href="https://www.facebook.com/">Facebook</a>
+              </li>
+              <li>
+                <a href="https://twitter.com/">Twitter</a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/">Instagram</a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/">LinkedIn</a>
+              </li>
             </ul>
           </div>
         </div>
         <hr />
-        <p className="text-center">© 2023 Salud. Todos los derechos reservados.</p>
+        <p className="text-center">
+          © 2023 Salud. Todos los derechos reservados.
+        </p>
       </div>
     </footer>
   );
