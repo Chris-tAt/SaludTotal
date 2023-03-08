@@ -1,48 +1,80 @@
-import Carousel from 'react-bootstrap/Carousel';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import Carousel from "react-bootstrap/Carousel";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./carousel.css";
+import estasi from "../Componentes/images/estasi.jpg";
+import nutricion from "../Componentes/images/nutricion.jpg";
 
-function UncontrolledExample() {
+function Carrusel() {
   return (
-    <Carousel>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="holder.js/1600x800?text=First slide&bg=373940"
-          alt="First slide"
-        />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="holder.js/1600x800?text=Second slide&bg=282c34"
-          alt="Second slide"
-        />
+    <div
+      className="carrusel-container"
+      style={{ display: "flex", justifyContent: "center" }}
+    >
+      <Carousel interval={5000}>
+        <Carousel.Item className="carousel-item">
+          <img
+            className="d-block w-100"
+            src={nutricion}
+            alt="1Nutricion"
+            style={{
+              maxHeight: "800px",
+              maxWidth: "800px",
+              height: "60%",
+              objectFit: "cover",
+            }}
+          />
+          <Carousel.Caption>
+            <h3>Somos "Quiero Vivir Sano"</h3>
+            <p>
+              La aplicacion que te brindará muchos beneficios para tu salud.
+            </p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item className="carousel-item">
+          <img
+            className="d-block w-100"
+            src={estasi}
+            alt="2Vivir"
+            style={{
+              maxHeight: "800px",
+              maxWidth: "800px",
+              height: "60%",
+              objectFit: "cover",
+            }}
+          />
 
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="holder.js/1600x800?text=Third slide&bg=20232a"
-          alt="Third slide"
-        />
+          <Carousel.Caption>
+            <h3>Previene y curar Enfermedades</h3>
+            <p>
+              te brindamos multiples Herramientas para prevenir enfermedades.
+            </p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item className="carousel-item">
+          <img
+            className="d-block w-100"
+            src={nutricion}
+            alt="3Estasi"
+            style={{
+              maxHeight: "800px",
+              maxWidth: "800px",
+              height: "60%",
+              objectFit: "cover",
+            }}
+          />
 
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
+          <Carousel.Caption>
+            <h3>Mejora tu apariencia fisica y tu estado emocional </h3>
+            <p>
+              Herramientas para determinar tu estado de salud y ademas poder
+              ayudarte en tu estado de animo, todo esto es posible gracias a los
+              remedios naturales
+            </p>
+          </Carousel.Caption>
+        </Carousel.Item>
+      </Carousel>
+    </div>
   );
 }
 
-export default UncontrolledExample;
+export default Carrusel;

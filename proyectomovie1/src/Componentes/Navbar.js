@@ -52,23 +52,30 @@ class Navbar extends Component {
             >
               <li>
                 <div className="active">
-                <Link className="nav-link" to="/paginas/">
-                  Inicio
-                </Link>
+                  <Link className="nav-link" to="/paginas/">
+                    Inicio
+                  </Link>
                 </div>
-               
               </li>
               <li>
-                <Link className="nav-link" to="/paginas/Consejos">Consejos</Link>
+                <Link className="nav-link" to="/paginas/Consejos">
+                  Consejos
+                </Link>
               </li>
               <li>
-                <Link className="nav-link" to="/paginas/Herramientas">Herramientas</Link>
+                <Link className="nav-link" to="/paginas/Herramientas">
+                  Herramientas
+                </Link>
               </li>
               <li>
-                <Link className="nav-link" to="/paginas/Conocenos">Conocenos</Link>
+                <Link className="nav-link" to="/paginas/Conocenos">
+                  Conocenos
+                </Link>
               </li>
               <li>
-                <Link className="nav-link" to="/paginas/Contacto">Contacto</Link>
+                <Link className="nav-link" to="/paginas/Contacto">
+                  Contacto
+                </Link>
               </li>
             </ul>
           </div>

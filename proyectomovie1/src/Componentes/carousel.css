@@ -1,0 +1,22 @@
+
+  .carrusel-container {
+    margin: 0 auto;
+    width: 80%;
+   }
+   .carrusel-container {
+    display: flex;
+    justify-content: center;
+  }
+  .carousel-item {
+    opacity: 0.8;
+   ;
+  }
+  
+  h3 {
+    background-color: black;
+    border-radius: 20px;
+  }
+  p {
+    color:rgb(31, 19, 10);
+    font-size: 1.5rem;
+  }

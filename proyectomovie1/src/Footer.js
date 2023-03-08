@@ -1,10 +1,10 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./Footer.css"; 
+import "./Footer.css";
 
 function Footer() {
   return (
-    <footer className="bg-orange mt-5 py-3">
+    <footer className="bg-orange mt-5 py-3" footer-Carrusel>
       <div className="container">
         <div className="row">
           <div className="col-md-4">

@@ -1,15 +1,13 @@
-import React from 'react';
-import UncontrolledExample from '../Componentes/Carousel'
+import React from "react";
+import Carrusel from "../Componentes/Carousel";
 
-function Conocenos () {
-  return(
+function Conocenos() {
+  return (
     <>
-    <h1>Welcome to conocenos Page</h1>
-    <UncontrolledExample/>
+      <h1>¿Quienes Somos?</h1>
+      <Carrusel />
     </>
-  )
-   
-
+  );
 }
 
 export default Conocenos;

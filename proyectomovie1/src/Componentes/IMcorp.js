@@ -82,7 +82,7 @@ function IMcorp() {
 
   return (
     <div className="IMcorp">
-      <button onClick={handleIMCorpClick} className='prueba'>
+      <button onClick={handleIMCorpClick} className="prueba">
         Calcula tu índice de masa muscular
       </button>
       {isIMcorpVisible && (
@@ -113,7 +113,9 @@ function IMcorp() {
               </p>
             )}
           </div>
-          <button type="submit" className="prueba">Calcular</button>
+          <button type="submit" className="prueba">
+            Calcular
+          </button>
           {imcResult && (
             <div className="imc-result">
               <p>Tu índice de masa muscular es: {imcResult}</p>
