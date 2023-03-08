@@ -2,7 +2,7 @@
   "name": "proyectomovie1",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Chris-tAt.github.io/SaludTotal",
+  "homepage": "http://Chris-tAt.github.io/SaludTotal/",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
