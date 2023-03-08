@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/SaludTotal/static/css/main.c5f12d38.css",
+    "main.js": "/SaludTotal/static/js/main.8acb29da.js",
+    "static/js/787.500c0886.chunk.js": "/SaludTotal/static/js/787.500c0886.chunk.js",
+    "static/media/dormir.jpg": "/SaludTotal/static/media/dormir.7a8226491fcafcd42b75.jpg",
+    "static/media/aire.jpg": "/SaludTotal/static/media/aire.c583b11392b07cb3a6df.jpg",
+    "static/media/nutricion.jpg": "/SaludTotal/static/media/nutricion.24b373774d655f3cd77c.jpg",
+    "static/media/habitos.jpg": "/SaludTotal/static/media/habitos.42c5723956a4ba304d3f.jpg",
+    "static/media/temperancia.jpg": "/SaludTotal/static/media/temperancia.ee0095770fbba6267250.jpg",
+    "static/media/luzsolar.jpg": "/SaludTotal/static/media/luzsolar.770f3ef891302a67680c.jpg",
+    "static/media/dios.jpg": "/SaludTotal/static/media/dios.48645847c3d9fb847fdc.jpg",
+    "static/media/agua.jpg": "/SaludTotal/static/media/agua.bb5ec0c7a21907ece02c.jpg",
+    "static/media/comidas.jpg": "/SaludTotal/static/media/comidas.31c4dcf09fa63357bca7.jpg",
+    "static/media/ejercicio.jpg": "/SaludTotal/static/media/ejercicio.2de06d145d8184ff07e8.jpg",
+    "static/media/Logo.png": "/SaludTotal/static/media/Logo.5102752012c529f62d1b.png",
+    "static/media/saludable.jpg": "/SaludTotal/static/media/saludable.c75e43a5e6e9803ff096.jpg",
+    "static/media/Favicon.png": "/SaludTotal/static/media/Favicon.3c9a94f9c5d78e44ed01.png",
+    "static/media/estasi.jpg": "/SaludTotal/static/media/estasi.3b6fbc3c8dcad44bb0a0.jpg",
+    "index.html": "/SaludTotal/index.html",
+    "main.c5f12d38.css.map": "/SaludTotal/static/css/main.c5f12d38.css.map",
+    "main.8acb29da.js.map": "/SaludTotal/static/js/main.8acb29da.js.map",
+    "787.500c0886.chunk.js.map": "/SaludTotal/static/js/787.500c0886.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5f12d38.css",
+    "static/js/main.8acb29da.js"
+  ]
+}
