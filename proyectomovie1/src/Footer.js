@@ -4,12 +4,12 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <footer className="bg-orange mt-5 py-3" footer-Carrusel>
+    <footer className="bg-orange py-3">
       <div className="container">
         <div className="row">
           <div className="col-md-4">
-            <h4>Nuestros Servicios</h4>
-            <ul>
+            <h4 className="mb-3">Nuestros Servicios</h4>
+            <ul className="list-unstyled mb-4">
               <li>Consejeria Familiar</li>
               <li>Consejeria Espiritual</li>
               <li>Remedios Naturale</li>
@@ -19,14 +19,14 @@ function Footer() {
             </ul>
           </div>
           <div className="col-md-4">
-            <h4>Contacto</h4>
-            <p>Dirección: por definir</p>
-            <p>Teléfono: por definir</p>
-            <p>Email: pordefinir@gmail.com</p>
+            <h4 className="mb-3">Contacto</h4>
+            <p className="mb-2">Dirección: por definir</p>
+            <p className="mb-2">Teléfono: por definir</p>
+            <p className="mb-0">Email: pordefinir@gmail.com</p>
           </div>
           <div className="col-md-4">
-            <h4>Redes Sociales</h4>
-            <ul>
+            <h4 className="mb-3">Redes Sociales</h4>
+            <ul className="list-unstyled mb-4">
               <li>
                 <a href="https://www.facebook.com/">Facebook</a>
               </li>
@@ -42,8 +42,8 @@ function Footer() {
             </ul>
           </div>
         </div>
-        <hr />
-        <p className="text-center">
+        <hr className="my-4" />
+        <p className="text-center mb-0">
           © 2023 Salud. Todos los derechos reservados.
         </p>
       </div>

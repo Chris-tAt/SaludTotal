@@ -1,9 +1,9 @@
 
-  .carrusel-container {
+  .carrusel-containe {
     margin: 0 auto;
     width: 80%;
    }
-   .carrusel-container {
+   .carrusel-containe {
     display: flex;
     justify-content: center;
   }

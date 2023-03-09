@@ -1,0 +1,93 @@
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+form {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem auto;
+  max-width: 600px;
+}
+
+.form-group {
+  margin: 1rem 0;
+  width: 100%;
+}
+
+.form-label {
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form-input,
+.form-textarea {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 2px solid #dab641;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 0 #c9a43f;
+  border-color: #f7b731 !important;
+}
+
+.form-checkbox {
+  margin-right: 0.5rem;
+}
+
+.form-input,
+.form-textarea,
+.form-checkbox,
+.form-label[for="llamada"] {
+  background-color: #e6a04c;
+}
+
+.form-submit {
+  background-color: #ce9822;
+  color: rgb(192, 216, 56);
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.form-submit:hover {
+  background-color: #db7438;
+}
+@media (min-width: 768px) {
+    .container {
+      padding: 40px 0;
+      font-size: 16px;
+    }
+}
+
+@media screen and(max-width: 768px) {
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+  .form {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem auto;
+    max-width: 300px;
+  }
+  .form-input,
+  .form-textarea {
+    width: 90%;
+  }
+
+  .form-submit {
+    font-size: 1rem;
+  }
+}

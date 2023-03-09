@@ -7,7 +7,7 @@ import habitos from "../Componentes/images/habitos.jpg";
 
 const Inicio = () => {
   return (
-    <div className="inicio-container">
+    <div className="inicio-contai">
       <h1 className="bienvenida">¡Bienvenido a Salud Total!</h1>
       <ul className="introduccion">
         <li>Consejos para prevenir enfermedades comunes y graves</li>

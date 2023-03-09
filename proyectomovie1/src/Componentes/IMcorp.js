@@ -87,7 +87,7 @@ function IMcorp() {
       </button>
       {isIMcorpVisible && (
         <form onSubmit={handleIMCorpSubmit}>
-          <div className="input-container">
+          <div className="input-contaier">
             <label>Sexo:</label>
             <select value={sexo} onChange={handleSexoChange}>
               <option value="">Selecciona una opción</option>

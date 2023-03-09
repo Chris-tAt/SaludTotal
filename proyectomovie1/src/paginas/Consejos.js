@@ -28,6 +28,7 @@ const Consejos = () => {
   const [isOpenModal7, openModal7, closeModal7] = useModal(false);
   const [isOpenModal8, openModal8, closeModal8] = useModal(false);
   return (
+    
     <div>
       <h1 className="consejos-heading">
         Dale click en cada boton para que pueda conocer los consejos sobre los

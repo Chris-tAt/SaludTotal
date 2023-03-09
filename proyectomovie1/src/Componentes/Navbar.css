@@ -141,6 +141,7 @@ color: rgb(231, 107, 18);
         box-shadow: 0 40px 60px rgb(44, 21, 5);
         padding: 40px 0 0 10px;
         transition: 0.3s ease-in-out;
+        z-index: 999;
     }
     #navbar.active {
         right: 0px;

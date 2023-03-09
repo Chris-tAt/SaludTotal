@@ -7,7 +7,7 @@ import nutricion from "../Componentes/images/nutricion.jpg";
 function Carrusel() {
   return (
     <div
-      className="carrusel-container"
+      className="carrusel-containe"
       style={{ display: "flex", justifyContent: "center" }}
     >
       <Carousel interval={5000}>
