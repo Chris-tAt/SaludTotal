@@ -3,6 +3,7 @@ import React from "react";
 const TarjetaRece = ({ receta }) => {
   const { idMeal, strMeal, strCategory, strMealThumb } = receta;
   return (
+    
     <div className="card">
       <img src={strMealThumb} alt={strMeal} className="card-image" />
       <div className="card-body">

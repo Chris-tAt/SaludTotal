@@ -4,6 +4,21 @@
   position: absolute;
   z-index: 666;
   }
+  @media only screen and (max-width: 600px) {
+    .modal-agua{
+      max-width: 100%;
+      margin: 0 auto;
+    }
+  }
+  .modal-container {
+    position: relative;
+    padding: 1rem;
+    width: 90%;
+    max-height: 90vh;
+    overflow-y: auto;
+    background-color: rgb(112, 241, 241);
+  }
+  
 button {
     background-color: orange;
     border-radius: 20px;

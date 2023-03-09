@@ -17,16 +17,14 @@
     display: flex;
 }
 .modal-container {
-   position: relative;
-   padding: 1rem;
-   min-width: 700px;
-   max-width: 850px;
-   min-height: 400px;
-   max-height: 600px;
-   overflow-y: auto;
-   background-color: rgb(112, 241, 241);
-
+  position: relative;
+  padding: 1rem;
+  width: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
+  background-color: rgb(112, 241, 241);
 }
+
 .modal-close {
   position: absolute;
   top: 1rem;
@@ -61,5 +59,11 @@
   }
   to {
     transform: scale(1);
+  }
+}
+@media only screen and (max-width: 500px) {
+  .modal-container {
+    max-width: 90%;
+    margin: 0 auto;
   }
 }

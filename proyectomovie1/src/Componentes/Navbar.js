@@ -10,6 +10,9 @@ class Navbar extends Component {
   };
   render() {
     return (
+      <div className="container-fluid">
+      <div className="row">
+        <div className="col-lg-14 col-md-14 col-sm-12 col-10 offset-md-0 offset-sm-0 offset-0"></div>
       <div>
         <nav>
           <img className="rotacionimg" src={Logo} alt="Logo de la aplicación" />
@@ -87,6 +90,9 @@ class Navbar extends Component {
           </div>
         </nav>
       </div>
+      </div>
+      </div>
+      
     );
   }
 }

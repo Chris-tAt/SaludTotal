@@ -17,6 +17,7 @@ import dios from "../Componentes/images/dios.jpg";
 import luzsolar from "../Componentes/images/luzsolar.jpg";
 import temperancia from "../Componentes/images/temperancia.jpg";
 import { useModal } from "../HooksPerson/UseModalMenu";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const Consejos = () => {
   const [isOpenModal1, openModal1, closeModal1] = useModal(false);
@@ -28,8 +29,7 @@ const Consejos = () => {
   const [isOpenModal7, openModal7, closeModal7] = useModal(false);
   const [isOpenModal8, openModal8, closeModal8] = useModal(false);
   return (
-    
-    <div>
+    <>
       <h1 className="consejos-heading">
         Dale click en cada boton para que pueda conocer los consejos sobre los
         remedios naturales
@@ -60,7 +60,9 @@ const Consejos = () => {
           Temperancia !
         </button>
       </div>
-
+      <div className="container-fluid">
+      <div className="row">
+        <div className="col-lg-14 col-md-14 col-sm-10 col-8 offset-md-0 offset-sm-0 offset-0">
       <ModalAgua
         className="modal-agua"
         isOpen={isOpenModal1}
@@ -166,6 +168,9 @@ const Consejos = () => {
         <img src={temperancia} alt="Remedio de Temperancia" />
       </ModalTemperancia>
     </div>
+    </div>
+    </div>
+    </>
   );
 };
 export default Consejos;

@@ -28,6 +28,9 @@ function Recetario() {
     searcRecetas();
   };
   return (
+    <div className="container-fluid">
+      <div className="row">
+        <div className="col-lg-14 col-md-14 col-sm-12 col-10 offset-md-0 offset-sm-0 offset-0">
     <div className="contenedor">
       <h2> Recetas para mejorar tu salud</h2>
       <Link to="/paginas/Herramientas">
@@ -47,6 +50,10 @@ function Recetario() {
           : "¡No hay Recetario!"}
       </div>
     </div>
+    </div>
+    </div>
+    </div>
+
   );
 }
 export default Recetario;

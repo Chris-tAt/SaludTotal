@@ -81,6 +81,7 @@ function IMcorp() {
   };
 
   return (
+    
     <div className="IMcorp">
       <button onClick={handleIMCorpClick} className="prueba">
         Calcula tu índice de masa muscular

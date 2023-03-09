@@ -3,6 +3,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function FlushExample() {
   return (
+    <div className="container-fluid">
+      <div className="row">
+        <div className="col-lg-14 col-md-14 col-sm-12 col-10 offset-md-0 offset-sm-0 offset-0">
     <Accordion defaultActiveKey="0" flush>
       <Accordion.Item eventKey="0">
         <Accordion.Header>Dolor de Estomago</Accordion.Header>
@@ -94,6 +97,9 @@ function FlushExample() {
         </Accordion.Body>
       </Accordion.Item>
     </Accordion>
+    </div>
+    </div>
+    </div>
   );
 }
 

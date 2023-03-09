@@ -6,6 +6,9 @@ import nutricion from "../Componentes/images/nutricion.jpg";
 
 function Carrusel() {
   return (
+    <div className="container-fluid">
+      <div className="row">
+        <div className="col-lg-14 col-md-14 col-sm-12 col-10 offset-md-0 offset-sm-0 offset-0">
     <div
       className="carrusel-containe"
       style={{ display: "flex", justifyContent: "center" }}
@@ -73,6 +76,9 @@ function Carrusel() {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
+    </div>
+    </div>
+    </div>
     </div>
   );
 }
