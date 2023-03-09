@@ -44,8 +44,8 @@ La función handleSubmit se ejecuta cuando el usuario envía el formulario de b�
 El componente "Carrusel" probablemente muestra varias imágenes que se pueden desplazar horizontalmente. Finalmente, se exporta el componente "Conocenos" como el valor predeterminado para poder ser utilizado en otros componentes o archivos.
 ### Componente Contacto (formularios y otros)
 Este código muestra una página de contacto con un formulario que incluye campos para nombre, correo electrónico, asunto y mensaje. El formulario utiliza la librería de Bootstrap para dar estilo a los componentes de formulario.
-Se muestra un contenedor Bootstrap container que contiene una fila row. La fila tiene una columna col-md-6 que contiene un formulario Form de Bootstrap.
-El formulario incluye cuatro grupos de campos de formulario Form.Group, uno para el nombre, otro para el correo electrónico, otro para el asunto y otro para el mensaje. Cada grupo de campos incluye un Form.Label y un Form.Control que define el tipo de entrada y el placeholder del campo de texto.
+Se muestra un contenedor Bootstrap container que contiene una fila row. La fila tiene una columna col-md-6 que contiene un formulario Form de Bootstrap..
+El formulario incluye cuatro grupos de campos de formulario Form.Group, uno para el nombre, otro para el correo electrónico, otro para el asunto y otro para el mensaje. Cada grupo de campos incluye un Form.Label y un Form.Control que define el tipo de entrada y el placeholder del campo de texto..
 
 ### **En forma de conclusion podemos decir que es una aplicacion basica en react que utiliza componentes y funcionamaientos para una aplicacion web, si se logra desarrollar completamente seria una aplicacion bastante util para las personas.**
 
